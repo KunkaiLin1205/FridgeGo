@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName=".Item" syncable="YES" codeGenerationType="class">
+        <attribute name="brief" optional="YES" attributeType="String"/>
+        <attribute name="cal" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="carbo" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="com" optional="YES" attributeType="String"/>
+        <attribute name="daysLeft" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expDate" optional="YES" attributeType="String"/>
+        <attribute name="fat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="ifFresh" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="num" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="protein" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="vc" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="224"/>
+    </elements>
+</model>
